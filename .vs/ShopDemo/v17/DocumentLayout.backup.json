@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hoc_Them\\Shop\\ShopDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64DA20-30FE-4F65-9614-140386E0BBC3}|ShopDemo.Api\\ShopDemo.Api.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64DA20-30FE-4F65-9614-140386E0BBC3}|ShopDemo.Api\\ShopDemo.Api.csproj|solutionrelative:shopdemo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\services\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\services\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\dtos\\authdtos\\changepasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\dtos\\authdtos\\changepasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\interfaces\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\interfaces\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E399F3-C152-4D65-9925-1BB3069C3B2F}|ShopDemo.Infrastructure\\ShopDemo.Infrastructure.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E399F3-C152-4D65-9925-1BB3069C3B2F}|ShopDemo.Infrastructure\\ShopDemo.Infrastructure.csproj|solutionrelative:shopdemo.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\interfaces\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\interfaces\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64DA20-30FE-4F65-9614-140386E0BBC3}|ShopDemo.Api\\ShopDemo.Api.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.api\\controllers\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64DA20-30FE-4F65-9614-140386E0BBC3}|ShopDemo.Api\\ShopDemo.Api.csproj|solutionrelative:shopdemo.api\\controllers\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\interfaces\\irepositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\interfaces\\irepositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|d:\\hoc_them\\shop\\shopdemo\\shopdemo.application\\interfaces\\iservices\\irefreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A077B7D-F082-4B94-B341-C95C68F319BA}|ShopDemo.Application\\ShopDemo.Application.csproj|solutionrelative:shopdemo.application\\interfaces\\iservices\\irefreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 252,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Api\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "ShopDemo.Api\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:16:10.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Infrastructure\\Repositories\\UserRepository.cs*",
+              "RelativeToolTip": "ShopDemo.Infrastructure\\Repositories\\UserRepository.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:01:02.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\Interfaces\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IRepositories\\IUserRepository.cs*",
+              "RelativeToolTip": "ShopDemo.Application\\Interfaces\\IRepositories\\IUserRepository.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T13:59:58.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "ShopDemo.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:31:24.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Services\\AuthService.cs*",
+              "RelativeToolTip": "ShopDemo.Application\\Services\\AuthService.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2QAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:20:39.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\Interfaces\\IServices\\IAuthService.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IServices\\IAuthService.cs",
+              "RelativeToolTip": "ShopDemo.Application\\Interfaces\\IServices\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:20:25.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefreshTokenController.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Api\\Controllers\\RefreshTokenController.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Api\\Controllers\\RefreshTokenController.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Api\\Controllers\\RefreshTokenController.cs",
+              "RelativeToolTip": "ShopDemo.Api\\Controllers\\RefreshTokenController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:03:19.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRefreshTokenService.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IServices\\IRefreshTokenService.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\Interfaces\\IServices\\IRefreshTokenService.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IServices\\IRefreshTokenService.cs",
+              "RelativeToolTip": "ShopDemo.Application\\Interfaces\\IServices\\IRefreshTokenService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:01:34.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IRepositories\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\Interfaces\\IRepositories\\IRefreshTokenRepository.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Interfaces\\IRepositories\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "ShopDemo.Application\\Interfaces\\IRepositories\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:01:00.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshTokenService.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Services\\RefreshTokenService.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\Services\\RefreshTokenService.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\Services\\RefreshTokenService.cs",
+              "RelativeToolTip": "ShopDemo.Application\\Services\\RefreshTokenService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:00:36.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePasswordRequestDto.cs",
+              "DocumentMoniker": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\DTOs\\AuthDtos\\ChangePasswordRequestDto.cs",
+              "RelativeDocumentMoniker": "ShopDemo.Application\\DTOs\\AuthDtos\\ChangePasswordRequestDto.cs",
+              "ToolTip": "D:\\Hoc_Them\\Shop\\ShopDemo\\ShopDemo.Application\\DTOs\\AuthDtos\\ChangePasswordRequestDto.cs",
+              "RelativeToolTip": "ShopDemo.Application\\DTOs\\AuthDtos\\ChangePasswordRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T07:59:24.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

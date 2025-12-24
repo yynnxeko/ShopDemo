@@ -1,0 +1,17 @@
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.Infrastructure.csproj.AssemblyReference.cache
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.Infrastructure.AssemblyInfoInputs.cache
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.Infrastructure.AssemblyInfo.cs
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\bin\Debug\net9.0\ShopDemo.Infrastructure.deps.json
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\bin\Debug\net9.0\ShopDemo.Infrastructure.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\bin\Debug\net9.0\ShopDemo.Infrastructure.pdb
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\bin\Debug\net9.0\ShopDemo.Application.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\bin\Debug\net9.0\ShopDemo.Core.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\bin\Debug\net9.0\ShopDemo.Application.pdb
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\bin\Debug\net9.0\ShopDemo.Core.pdb
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.04B7C133.Up2Date
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.Infrastructure.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\refint\ShopDemo.Infrastructure.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ShopDemo.Infrastructure.pdb
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Infrastructure\obj\Debug\net9.0\ref\ShopDemo.Infrastructure.dll

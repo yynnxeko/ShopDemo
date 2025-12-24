@@ -1,0 +1,11 @@
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\bin\Debug\net9.0\ShopDemo.Core.deps.json
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\bin\Debug\net9.0\ShopDemo.Core.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\bin\Debug\net9.0\ShopDemo.Core.pdb
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\ShopDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\ShopDemo.Core.AssemblyInfoInputs.cache
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\ShopDemo.Core.AssemblyInfo.cs
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\ShopDemo.Core.csproj.CoreCompileInputs.cache
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\ShopDemo.Core.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\refint\ShopDemo.Core.dll
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\ShopDemo.Core.pdb
+D:\Hoc_Them\Shop\ShopDemo\ShopDemo.Core\obj\Debug\net9.0\ref\ShopDemo.Core.dll
