@@ -9,10 +9,7 @@ namespace ShopDemo.Infrastructure.Migrations
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.DropColumn(
-                name: "Password",
-                table: "Users");
+        {          
 
             migrationBuilder.RenameColumn(
                 name: "Role",

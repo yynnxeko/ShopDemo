@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ShopDemo.Application.DTOs.UserDtos;
+using ShopDemo.Application.Helper;
 using ShopDemo.Application.Interfaces.IRepositories;
 using ShopDemo.Application.Interfaces.IServices;
 using ShopDemo.Core.Entities;
@@ -66,5 +67,12 @@ namespace ShopDemo.Application.Services
             }
             return _mapper.Map<UserDto>(updateUser);
         }
+
+        public async Task UpdatePasswordAsync(Guid id, string password) {
+            var passwordHash = AuthHelper.HashPassword(password);
+            await _userRepository.UpdatePasswordAsync(id, passwordHash);           
+        }
+
+        
     }
 }

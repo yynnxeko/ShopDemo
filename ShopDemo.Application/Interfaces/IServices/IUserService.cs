@@ -15,5 +15,6 @@ namespace ShopDemo.Application.Interfaces.IServices
         Task<User> GetUserByIdAsync(Guid id);
         Task<User> GetUserByEmailAsync(string email);
         Task<UserDto> UpdateAsync(Guid id, UserUpdatedDto user);
+        Task UpdatePasswordAsync(Guid id, string password);
     }
 }

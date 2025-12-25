@@ -15,7 +15,7 @@ using System.Runtime.CompilerServices;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using BCryptNet = BCrypt.Net.BCrypt;
+
 
 namespace ShopDemo.Application.Services
 {
@@ -53,7 +53,7 @@ namespace ShopDemo.Application.Services
                 Email = request.Email.Trim(),
                 FullName = request.FullName.Trim(),
                 RoleId = userRole.Id,
-                PasswordHash = BCryptNet.HashPassword(request.Password),
+                PasswordHash = AuthHelper.HashPassword(request.Password),
                 CreatedAt = DateTime.Now
             };
 
@@ -68,7 +68,7 @@ namespace ShopDemo.Application.Services
             {
                 return (false, null, null, "Incorrect email or password");
             }
-            if (!BCryptNet.Verify(dto.Password, user.PasswordHash))
+            if (!AuthHelper.VerifyPassword(dto.Password, user.PasswordHash))
             {
                 return (false, null, null, "Incorrect email or password");
             }
@@ -93,10 +93,10 @@ namespace ShopDemo.Application.Services
             var user = await _userRepository.GetUserByIdAsync(userId);
             if (user == null)
                 return (false, "User không tồn tại");
-            if (!BCryptNet.Verify(request.CurrentPassword, user.PasswordHash))
+            if (!AuthHelper.VerifyPassword(request.CurrentPassword, user.PasswordHash))
                 return (false, "Mật khẩu cũ không đúng");
 
-            string newPassword = BCryptNet.HashPassword(request.NewPassword);
+            string newPassword = AuthHelper.HashPassword(request.NewPassword);
             await _userRepository.UpdatePasswordAsync(user.Id, newPassword);
             return (true, "Đổi mật khẩu thành công");
         }

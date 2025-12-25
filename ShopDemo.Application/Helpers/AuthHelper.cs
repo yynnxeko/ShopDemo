@@ -5,9 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using BCryptNet = BCrypt.Net.BCrypt;
 
 namespace ShopDemo.Application.Helper
 {
@@ -34,6 +36,18 @@ namespace ShopDemo.Application.Helper
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public static string HashPassword(string password)
+        {
+            var passwordHash = BCryptNet.HashPassword(password);
+            return passwordHash;
+        }
+
+        public static bool VerifyPassword(string password, string passwordHash)
+        {
+            var isVerify = BCryptNet.Verify(password, passwordHash);
+            return isVerify;
         }
     }
 }

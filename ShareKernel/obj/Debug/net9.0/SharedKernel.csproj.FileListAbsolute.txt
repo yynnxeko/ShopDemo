@@ -5,6 +5,7 @@ D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\SharedKernel.GeneratedMSB
 D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\SharedKernel.AssemblyInfoInputs.cache
 D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\SharedKernel.AssemblyInfo.cs
 D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\SharedKernel.csproj.CoreCompileInputs.cache
+D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\SharedKernel.sourcelink.json
 D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\SharedKernel.dll
 D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\refint\SharedKernel.dll
 D:\Hoc_Them\Shop\ShopDemo\ShareKernel\obj\Debug\net9.0\SharedKernel.pdb

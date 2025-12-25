@@ -10,6 +10,7 @@ using ShopDemo.Application.Mappings;
 using ShopDemo.Application.Services;
 using ShopDemo.Application.Validation.AuthValidation;
 using ShopDemo.Application.Validation.RoleValidation;
+using ShopDemo.Core.Config;
 using ShopDemo.Infrastructure.Data;
 using ShopDemo.Infrastructure.Repositories;
 using System.Text;
@@ -38,8 +39,8 @@ builder.Services.AddSwaggerGen(c =>
         Description = "JWT Authorization header using the Bearer scheme.",
         Name = "Authorization",
         In = ParameterLocation.Header,
-        Type = SecuritySchemeType.Http,  
-        Scheme = "Bearer",  
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
         BearerFormat = "JWT"
     });
 
@@ -53,7 +54,7 @@ builder.Services.AddSwaggerGen(c =>
                     Type = ReferenceType.SecurityScheme,
                     Id = "Bearer"
                 },
-                Scheme = "Bearer",  
+                Scheme = "Bearer",
                 Name = "Bearer",
                 In = ParameterLocation.Header,
             },
@@ -74,7 +75,20 @@ builder.Services.AddScoped<IRefreshTokenService, RefreshTokenService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-// 6. Authentication + Authorization
+builder.Services.AddScoped<IEmailService, EmailService>();  
+builder.Services.AddScoped<IOTPService, OTPService>();
+
+//Email
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+
+// 6. Redis Cache (cho OTP)
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+    options.InstanceName = "ShopDemo:";
+});
+
+// 7. Authentication + Authorization
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -93,6 +107,22 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 
+// 8. CORS (nếu cần)
+builder.Services.AddCors(options =>
+{
+    var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>();
+    options.AddPolicy("AllowSpecificOrigins", policy =>
+    {
+        if (allowedOrigins != null && allowedOrigins.Length > 0)
+        {
+            policy.WithOrigins(allowedOrigins)
+                  .AllowAnyMethod()
+                  .AllowAnyHeader()
+                  .AllowCredentials();
+        }
+    });
+});
+
 var app = builder.Build();
 
 // ================== CONFIGURE MIDDLEWARE ==================
@@ -109,10 +139,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseCors("AllowSpecificOrigins");
 
 // Authentication & Authorization middleware
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 app.Run();
